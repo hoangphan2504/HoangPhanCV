@@ -51,7 +51,7 @@ p{
 
 .stars{
     position:absolute;
-    top:0;
+    top:100px;
     left:0;
     right:0;
     bottom:0;
@@ -62,6 +62,16 @@ p{
     z-index:0;
 }
 
+.bar{
+    padding-top:20px;
+    height: 50px;
+    width: 100%;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
 
 .arrow{
     height: 130%;
